@@ -1,0 +1,37 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+"traceEvents":[
+{ "cat":"", "pid":1, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"tundra" } }
+,{ "pid":1, "tid":0, "ts":320224765305, "dur":1708, "ph":"X", "name": "DriverCheckDagSignatures",  "args": { "durationMS":2, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":320224767014, "dur":1884, "ph":"X", "name": "DriverInitData",  "args": { "durationMS":2, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":320224769171, "dur":70, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"PrepareNodes" }}
+,{ "pid":1, "tid":0, "ts":320224769257, "dur":16, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"RemoveStaleOutputs" }}
+,{ "pid":1, "tid":0, "ts":320224769278, "dur":528, "ph":"X", "name": "Tundra",  "args": { "durationMS":1, "detail":"BuildQueueInit" }}
+,{ "pid":1, "tid":0, "ts":320251114438, "dur":20372, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":20, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":320251134887, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":320251134922, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":320251134944, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":320251135067, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":320251135111, "dur":22360, "ph":"X", "name": "Tundra",  "args": { "durationMS":22, "detail":"Write AllBuiltNodes" }}
+,{ "pid":1, "tid":1, "ts":320224771567, "dur":20496, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":20, "detail":"Il2Cpp C:/Users/Rongzhen/Desktop/Fundemic/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput" }}
+,{ "pid":1, "tid":1, "ts":320224795380, "dur":26215149, "ph":"X", "name": "Il2Cpp",  "args": { "durationMS":26215, "detail":"C:/Users/Rongzhen/Desktop/Fundemic/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput" }}
+,{ "pid":1, "tid":1, "ts":320251010691, "dur":3014, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":3, "detail":"Copy Additional C++ File C:/Users/Rongzhen/Desktop/Fundemic/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityAppController+Notifications.h" }}
+,{ "pid":1, "tid":1, "ts":320251014130, "dur":100167, "ph":"X", "name": "Copy",  "args": { "durationMS":100, "detail":"Additional C++ File C:/Users/Rongzhen/Desktop/Fundemic/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityAppController+Notifications.h" }}
+,{ "pid":1, "tid":1, "ts":320251114387, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"all_tundra_nodes" }}
+,{ "pid":1, "tid":1, "ts":320251114415, "dur":29, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":1, "ts":320251114444, "dur":19780, "ph":"X", "name": "Exiting",  "args": { "durationMS":20, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":2, "ts":320224772153, "dur":26238606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":26239, "detail":"" }}
+,{ "pid":1, "tid":2, "ts":320251010760, "dur":23303, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":23, "detail":"Copy Additional C++ File C:/Users/Rongzhen/Desktop/Fundemic/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityNotificationManager.h" }}
+,{ "pid":1, "tid":2, "ts":320251034407, "dur":79256, "ph":"X", "name": "Copy",  "args": { "durationMS":79, "detail":"Additional C++ File C:/Users/Rongzhen/Desktop/Fundemic/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityNotificationManager.h" }}
+,{ "pid":1, "tid":2, "ts":320251113735, "dur":716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":1, "detail":"" }}
+,{ "pid":1, "tid":2, "ts":320251114452, "dur":19737, "ph":"X", "name": "Exiting",  "args": { "durationMS":20, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":3, "ts":320224772246, "dur":26238511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":26239, "detail":"" }}
+,{ "pid":1, "tid":3, "ts":320251010766, "dur":12126, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":12, "detail":"Copy Additional C++ File C:/Users/Rongzhen/Desktop/Fundemic/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityNotificationData.h" }}
+,{ "pid":1, "tid":3, "ts":320251023857, "dur":89257, "ph":"X", "name": "Copy",  "args": { "durationMS":89, "detail":"Additional C++ File C:/Users/Rongzhen/Desktop/Fundemic/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityNotificationData.h" }}
+,{ "pid":1, "tid":3, "ts":320251113203, "dur":1253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":1, "detail":"" }}
+,{ "pid":1, "tid":3, "ts":320251114456, "dur":19625, "ph":"X", "name": "Exiting",  "args": { "durationMS":20, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":4, "ts":320224772101, "dur":26342355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":26342, "detail":"" }}
+,{ "pid":1, "tid":4, "ts":320251114457, "dur":19561, "ph":"X", "name": "Exiting",  "args": { "durationMS":20, "detail":"BuildLoop" }}
+
+]
+}
